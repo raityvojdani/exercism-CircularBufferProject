@@ -30,6 +30,15 @@ The core of this project is the `CircularBuffer<T>` class, which allows the user
 
 - **`void Clear()`**: Clears all elements in the buffer and resets the `head` and `tail` positions.
 
+
+### Installation & Usage
+1-Clone this repository to your local machine.
+git clone https://github.com/your-username/circular-buffer.git
+
+2-Open the project in Visual Studio or another C# IDE.
+3-Build and run the project
+
+
 ### Example Usage
 
 ```csharp
@@ -51,9 +60,3 @@ buffer.Overwrite(4);
 Console.WriteLine(buffer.Read()); // Output: 3
 Console.WriteLine(buffer.Read()); // Output: 4
 
-### Installation & Usage
-1-Clone this repository to your local machine.
-git clone https://github.com/your-username/circular-buffer.git
-
-2-Open the project in Visual Studio or another C# IDE.
-3-Build and run the project
